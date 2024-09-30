@@ -1,0 +1,48 @@
+.browser-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .nav-button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-button:hover {
+    background-color: #cfcfcf;
+  }
+  
+  .home-button {
+    background-color: #ff5f56;
+  }
+  
+  .home-button:hover {
+    background-color: #e04e50;
+  }
+
+  .theme-toggle {
+    margin-left: 20px;
+    background-color: var(--button-bg);
+  }
+  
+  .theme-toggle:hover {
+    background-color: var(--button-hover);
+  }

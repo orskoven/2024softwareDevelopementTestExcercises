@@ -1,0 +1,13 @@
+.address-bar {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+  }
+  
+  .address-bar:focus {
+    outline: none;
+    border-color: #a0a0a0;
+  }
